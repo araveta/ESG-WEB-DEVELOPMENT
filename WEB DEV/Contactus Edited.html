@@ -97,8 +97,9 @@
                     <label for="pesan" class="form-label"><b>Pesan</b></label>
                     <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Pesan yang ingin anda sampaikan"></textarea>
                 </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+
+                <div class="modal fade" id="exampleModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                    <div class="modal-dialog" >
                     <div class="modal-content">
                         <!-- <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Created By</h5>
@@ -106,14 +107,14 @@
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div> -->
-                        <div class="modal-body">
-                            <h4 style="color:#273793">Terima kasih telah mengisi feedback:)</h4>
-                            <button type="button" class="btn login" data-dismiss="modal" aria-label="Close">Back</button>
+                        <div class="modal-body justify-content-center">
+                            <h4 style="color:#273793">Terima kasih<br> telah mengisi<br> feedback:)</h4>
+                            <center><button type="button" class="btn login" data-dismiss="modal" aria-label="Close">Back</button></center>
                         </div>
                     </div>
                     </div>
                     </div>
-                <button type="submit" class="btn mb-3" style="width:100%;" data-target="#exampleModal" data-toggle="modal">Kirim Pesan</button>
+                <button type="button" class="btn mb-3" style="width:100%;" data-target="#exampleModal" data-toggle="modal">Kirim Pesan</button>
                 
 
 
@@ -123,21 +124,24 @@
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-body">
-                          <button data-dismiss="modal" class="close">&larr;</button>
+                          <button data-dismiss="modal" class="close" >&larr;</button>
                           <h4>Login</h4>
                           <form>
-                            <label for="username"><b style="color:#273793">Username</b></label>
-                            <input type="text" name="username" class="username form-control" placeholder=" Username"/>
-                            <label for="password"><b style="color:#273793">Password</b></label>
-                            <input type="password" name="password" class="password form-control" placeholder=" Password"/>
+                            <div class="mb-3">
+                              <label for="username"><b style="color:#273793;">Username</b></label>
+                              <input type="text" name="username" class="username form-control" placeholder=" Username"/>
+                            </div>
+                            <div class="mb-3">
+                              <label for="password"><b style="color:#273793">Password</b></label>
+                              <input type="password" name="password" class="password form-control" placeholder=" Password"/>
+                            </div>
                             <!-- <input class="btn login" type="submit" value="Login" /> -->
-                            <a class="btn login" href="Feedback.html" role="button" >Login</a>
+                            <a class="btn login" href="Feedback.html" style="width:100%; border-radius: 0.3cm;" role="button" >Login</a>
                           </form>
                         </div>
                       </div>
                     </div>  
                   </div>
-              </form>
              
         </div>
     </section>
