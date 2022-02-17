@@ -73,3 +73,15 @@ body{
     -webkit-text-stroke:none;
     -webkit-text-fill-color:#273793;
 }
+.title-tambah-gambar{
+    text-shadow: black;
+    color: #273793;
+    font-size: 12px;
+    text-align: center;
+}
+.title-category{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}

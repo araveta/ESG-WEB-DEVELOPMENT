@@ -77,3 +77,9 @@ body{
     -webkit-text-stroke:none;
     -webkit-text-fill-color:#273793;
 }
+.title-gallery{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}

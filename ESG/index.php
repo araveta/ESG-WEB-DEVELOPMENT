@@ -112,5 +112,11 @@ include "header.php"; ?>
         </div>
       </div>
     </section>
+
+    <section class="mt-5" id="gallery">
+      <div class="container">
+        <p class="title-gallery">Gallery ERP Studygroup</p>
+      </div>
+    </section>
     
 <?php include "footer.php"; ?>
