@@ -1,0 +1,85 @@
+body{
+    background-color:#faf7ff;
+    font-family: 'Poppins';
+
+}
+.btn-contact{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color:#273793;
+    color: white;
+    border-radius: 1cm;
+    border-color:#273793 ;
+    font-weight: 500;
+}
+.btn-contact:hover{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(180, 179, 179);
+    margin-top: 100px;
+    padding: 5rem;
+}
+.video-esg{
+    border-radius: 1cm;
+    
+}
+.title-about-us{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}
+.title-activity{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}
+.title-socmed{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}
+.content-about-us{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.carousel-item {
+    height: 150px;
+}
+.carousel-indicators button {
+    width: 10px;
+    height: 5px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.btn-id{
+    width : 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.btn-socmed{
+    width : 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: #d1c9ff;
+    font-size: 30px;
+}
+.stroke-transparent {
+    -webkit-text-stroke:none;
+    -webkit-text-fill-color:#273793;
+}
+.title-gallery{
+    text-shadow: black;
+    color: #273793;
+    font-size: 22px;
+    text-align: center;
+}
