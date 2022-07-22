@@ -1,0 +1,835 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+        body{
+          background-image: url('bglomba.png'); 
+          background-repeat: no-repeat;
+          background-size: 1280px 2300px;
+        }
+        table {
+            border-collapse: collapse;
+            background: white;
+            color: black;
+        }
+          
+        th,
+        td {
+            font-weight: bold;
+        }
+      </style>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Home Edited.html">
+                <img src="keprof erp.png" alt="" width="86" height="43" style="margin-left: 0.8cm;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end p-2" id="navbarNav">
+                <ul class="navbar-nav" > 
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Home Edited.html" style="margin-left: 1cm;margin-right: 0.25cm;color: black;"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" style="margin-left: 0.5cm;margin-right: 0.25cm;color: black;"><b>Gallery</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" style="margin-left: 0.25cm;margin-right: 0.25cm;color: black;"><b><u>Info Lomba</u></b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="margin-left: 0.25cm;margin-right: 0.3cm;color: black;"><b>Kegiatan</b></a>
+                  </li>
+                </ul>
+                <a href="Contactus Edited.html">
+                  <button class="btn-contact shadow-lg" style="margin-right: 0.8cm; margin-left: 0.25cm;"><b>Contact Us</b></button>
+                </a>
+              </div>
+            </div>
+          </nav>
+    
+        <!---Section Title--->
+        <section id="title">
+            <div class="container mb-3">
+                <h2 class="title"> 
+                    <b>
+                    <font color="#273793">Hall of Fame</font>
+                    </b> 
+                </h2>
+            </div>
+        </section>
+        <section id="carousel-activity">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">   
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="1 slide" ></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="2 slide" ></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="3 slide" ></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="4 slide" style="margin-right: 0.3cm;"></div>           
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="1 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="2 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="3 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="4 slide"></div>           
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="1 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="2 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="3 slide"></div>
+                    <div class="col"><img src="foto_lomba.png" width="250" alt="4 slide"></div>            
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </section>
+        <br>
+        <div class="d-flex justify-content-end">
+            <button data-target="#add" data-toggle="modal" type="button" class="btn" style="background-color : #DCD6FF; margin-right: 2rem;">Add</button>
+            <div id="add" class="modal fade" role="dialog">
+                              <div class="modal-dialog">
+                                  <div class="modal-content" style="background: #273793; width: 800px; height: 300px; margin-left: -150px;">
+                                  <div class="modal-body" style="background: #273793;">
+                                      <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                      <h5><b><a style="margin-left: 35px;"><font color="black">Tambah Hall Of Fame</font></a></b></h5>
+                                      <hr color="white">
+                                      <div class="container">
+                                        <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 200px;">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Upload Foto disini:</th>      
+                                                </tr>
+                                                <tr>
+                                                    <th style="background-color: white;">
+                                                        <input type="file" id="myFile" name="filename">
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                            <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px; margin-left: 38rem;">Save</a>
+                                                    </th>
+                                                </tr>                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                  </div>
+                                  </div>
+                              </div>  
+                          </div>
+          </div>
+
+        <!---Section Title--->
+        <section id="title">
+            <div class="container">
+                <h2 class="title"> 
+                    <b>
+                    <font color="black">Info Lomba</font>
+                    <font color="#273793">ERP Studygroup</font>
+                    </b> 
+                </h2>
+            </div>
+        </section>
+
+        <section id="card-lomba">
+            <div style="padding-left: 3cm; padding-right: 3cm;">
+                <div class="row">
+                    <div class="col-sm-4">
+                      <div class="card" style="background-color: #273793; color: white;">
+                        <div class="card-body">
+                          <h5 class="card-title d-flex justify-content-center p-3">UI/UX</h5>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" data-target="#cek" data-toggle="modal" class="btn d-flex justify-content-center" style="background-color: #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                            <div id="cek" class="modal fade" role="dialog">
+                              <div class="modal-dialog">
+                                  <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                  <div class="modal-body" style="background: #273793;">
+                                      <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                      <h5><b><a style="margin-left: 35px;"><font color="black">UI/UX</font></a></b></h5>
+                                      <hr color="white">
+                                      <div class="container">
+                                        <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1.</th>
+                                                    <td>LOMBA UI/UX TELKOM</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>
+                                                      <a class="btn" href="" data-target="#edit" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                      <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                      <div id="edit" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                            <div class="modal-body" style="background: #273793;">
+                                                                <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                <hr color="white">
+                                                                <div class="container">
+                                                                  <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                      <tbody>
+                                                                          <tr>
+                                                                            <th>
+                                                                                <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                            </th>                                                           
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <th style="background-color: white;">
+                                                                                  <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                              </th>
+                                                                          </tr>
+                                                                      </tbody>
+                                                                  </table>
+                                                              </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                    </td> 
+                                                  </tr>
+                                                  <tr style="background-color: white;">
+                                                    <th scope="row">2.</th>
+                                                    <td>LOMBA ESSAY TELKOM</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>
+                                                      <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                      <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                    </td> 
+                                                  </tr>
+                                                  <tr>
+                                                    <th style="background-color: white;">
+                                                        <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                  </div>
+                                  </div>
+                              </div>  
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card" style="background-color: #273793; color: white;">
+                        <div class="card-body">
+                          <h5 class="card-title d-flex justify-content-center p-3">Business Competition</h5>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" class="btn d-flex justify-content-center" data-target="#cek2" data-toggle="modal" style="background-color: #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                            <div id="cek2" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                    <div class="modal-body" style="background: #273793;">
+                                        <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                        <h5><b><a style="margin-left: 35px;"><font color="black">Business Competition</font></a></b></h5>
+                                        <hr color="white">
+                                        <div class="container">
+                                          <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                              <tbody>
+                                                  <tr>
+                                                      <th scope="row">1.</th>
+                                                      <td>LOMBA BC TELKOM</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" data-target="#edit2" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                        <div id="edit2" class="modal fade" role="dialog">
+                                                          <div class="modal-dialog">
+                                                              <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                              <div class="modal-body" style="background: #273793;">
+                                                                  <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                  <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                  <hr color="white">
+                                                                  <div class="container">
+                                                                    <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                              <th>
+                                                                                  <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                              </th>                                                           
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <th style="background-color: white;">
+                                                                                    <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                              </div>
+                                                              </div>
+                                                          </div>  
+                                                      </div>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr style="background-color: white;">
+                                                      <th scope="row">2.</th>
+                                                      <td>LOMBA ESSAY TELKOM</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr>
+                                                      <th style="background-color: white;">
+                                                          <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                      </th>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                      </div>
+                                    </div>
+                                    </div>
+                                </div>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="background-color: #273793; color: white;">
+                          <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center p-3">KTI</h5>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn d-flex justify-content-center" data-target="#cek3" data-toggle="modal" style="background-color: #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                                <div id="cek3" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                        <div class="modal-body" style="background: #273793;">
+                                            <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                            <h5><b><a style="margin-left: 35px;"><font color="black">KTI</font></a></b></h5>
+                                            <hr color="white">
+                                            <div class="container">
+                                              <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                                  <tbody>
+                                                      <tr>
+                                                          <th scope="row">1.</th>
+                                                          <td>LOMBA KTI TELKOM</td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td>
+                                                            <a class="btn" href="" data-target="#edit3" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                            <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                            <div id="edit3" class="modal fade" role="dialog">
+                                                              <div class="modal-dialog">
+                                                                  <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                                  <div class="modal-body" style="background: #273793;">
+                                                                      <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                      <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                      <hr color="white">
+                                                                      <div class="container">
+                                                                        <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                  <th>
+                                                                                      <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                      <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                      <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  </th>                                                           
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                    <th style="background-color: white;">
+                                                                                        <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                                    </th>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                  </div>
+                                                                  </div>
+                                                              </div>  
+                                                          </div>
+                                                          </td> 
+                                                        </tr>
+                                                        <tr style="background-color: white;">
+                                                          <th scope="row">2.</th>
+                                                          <td>LOMBA ESSAY TELKOM</td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td>
+                                                            <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                            <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                          </td> 
+                                                        </tr>
+                                                        <tr>
+                                                          <th style="background-color: white;">
+                                                              <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                          </th>
+                                                      </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                        </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <div class="card" style="background-color: #273793; color: white;">
+                        <div class="card-body">
+                          <h5 class="card-title d-flex justify-content-center p-3">Hackathon</h5>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" class="btn d-flex justify-content-center" data-target="#cek4" data-toggle="modal" style="background-color: #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                            <div id="cek4" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                    <div class="modal-body" style="background: #273793;">
+                                        <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                        <h5><b><a style="margin-left: 35px;"><font color="black">Hackathon</font></a></b></h5>
+                                        <hr color="white">
+                                        <div class="container">
+                                          <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                              <tbody>
+                                                  <tr>
+                                                      <th scope="row">1.</th>
+                                                      <td>LOMBA HACKATHON</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" data-target="#edit4" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                        <div id="edit4" class="modal fade" role="dialog">
+                                                          <div class="modal-dialog">
+                                                              <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                              <div class="modal-body" style="background: #273793;">
+                                                                  <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                  <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                  <hr color="white">
+                                                                  <div class="container">
+                                                                    <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                              <th>
+                                                                                  <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                              </th>                                                           
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <th style="background-color: white;">
+                                                                                    <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                              </div>
+                                                              </div>
+                                                          </div>  
+                                                      </div>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr style="background-color: white;">
+                                                      <th scope="row">2.</th>
+                                                      <td>LOMBA ESSAY TELKOM</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr>
+                                                      <th style="background-color: white;">
+                                                          <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                      </th>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                      </div>
+                                    </div>
+                                    </div>
+                                </div>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card"style=" background-color: #273793; color: white;">
+                        <div class="card-body">
+                          <h5 class="card-title d-flex justify-content-center p-3">Desain</h5>
+                          <div class="d-flex justify-content-center">
+                            <a href="#" class="btn d-flex justify-content-center" data-target="#cek5" data-toggle="modal" style="background-color : #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                            <div id="cek5" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                    <div class="modal-body" style="background: #273793;">
+                                        <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                        <h5><b><a style="margin-left: 35px;"><font color="black">Desain</font></a></b></h5>
+                                        <hr color="white">
+                                        <div class="container">
+                                          <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                              <tbody>
+                                                  <tr>
+                                                      <th scope="row">1.</th>
+                                                      <td>LOMBA DESAIN TELKOM</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" data-target="#edit5" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                        <div id="edit5" class="modal fade" role="dialog">
+                                                          <div class="modal-dialog">
+                                                              <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                              <div class="modal-body" style="background: #273793;">
+                                                                  <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                  <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                  <hr color="white">
+                                                                  <div class="container">
+                                                                    <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                              <th>
+                                                                                  <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                              </th>                                                           
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <th style="background-color: white;">
+                                                                                    <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                              </div>
+                                                              </div>
+                                                          </div>  
+                                                      </div>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr style="background-color: white;">
+                                                      <th scope="row">2.</th>
+                                                      <td>LOMBA ESSAY TELKOM</td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td></td>
+                                                      <td>
+                                                        <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                        <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                      </td> 
+                                                    </tr>
+                                                    <tr>
+                                                      <th style="background-color: white;">
+                                                          <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                      </th>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                      </div>
+                                    </div>
+                                    </div>
+                                </div>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="background-color: #273793; color: white; ">
+                          <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center p-3">Debat</h5>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn" data-target="#cek6" data-toggle="modal" style="background-color: #DCD6FF; width: 85%;"><b>Cek Detail</b></a>
+                                <div id="cek6" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -130px;">
+                                        <div class="modal-body" style="background: #273793;">
+                                            <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                            <h5><b><a style="margin-left: 35px;"><font color="black">Debat</font></a></b></h5>
+                                            <hr color="white">
+                                            <div class="container">
+                                              <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 230px; width: 650px;">
+                                                  <tbody>
+                                                      <tr>
+                                                          <th scope="row">1.</th>
+                                                          <td>LOMBA DEBAT TELKOM</td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td>
+                                                            <a class="btn" href="" data-target="#edit6" data-toggle="modal" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                            <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                            <div id="edit6" class="modal fade" role="dialog">
+                                                              <div class="modal-dialog">
+                                                                  <div class="modal-content" style="background: #273793; width: 750px; height: 400px; margin-left: -140px;">
+                                                                  <div class="modal-body" style="background: #273793;">
+                                                                      <button data-dismiss="modal" class="close" style="color: #FFFFFF;">&larr;</button>
+                                                                      <h5><b><a style="margin-left: 35px;"><font color="black">Edit</font></a></b></h5>
+                                                                      <hr color="white">
+                                                                      <div class="container">
+                                                                        <table class="styled-table" style="margin-top: 1rem; margin-left: 1rem; height: 300px; width: 650px;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                  <th>
+                                                                                      <input class="form-control" type="text" placeholder="Judul Lomba" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                      <input class="form-control" type="text" placeholder="Link Guidebook" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                      <input class="form-control" type="text" placeholder="Link Sosial Media" style="background-color: #DCD6FF; width: 38rem;">
+                                                                                  </th>                                                           
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                    <th style="background-color: white;">
+                                                                                        <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                                                    </th>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                  </div>
+                                                                  </div>
+                                                              </div>  
+                                                          </div>
+                                                          </td> 
+                                                        </tr>
+                                                        <tr style="background-color: white;">
+                                                          <th scope="row">2.</th>
+                                                          <td>LOMBA ESSAY TELKOM</td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td>
+                                                            <a class="btn" href="" style="color:black; background: #FFD600; font-size: 12px;">&nbsp Edit &nbsp</a> &nbsp
+                                                            <a class="btn" href="" style="color:black; background: #FF0000; font-size: 12px; padding-left: 0.3cm; margin: bottom 1px;">Dalete</a>
+                                                          </td> 
+                                                        </tr>
+                                                        <tr>
+                                                          <th style="background-color: white;">
+                                                              <a class="btn" href="" style="color:black; background: #85B6FF; font-size: 12px;">Save</a>
+                                                          </th>
+                                                      </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                        </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---Section Title--->
+        <section id="title-kalendar">
+            <div class="container">`
+                <h2 class="title"> 
+                    <b>
+                    <font color="#273793">Kalendar</font>
+                    </b> 
+                </h2>
+            </div>
+        </section>
+
+        <section id="kalender">
+            <div class="container">
+    <h2 align="center" style="color: #273793; font-size: 24;">May 2022</h2>
+    <br />
+
+    <table bgcolor="lightgrey" align="center" cellspacing="21" cellpadding="21">
+
+      <caption align="top">
+      </caption>
+
+      <thead>
+          <tr>
+              <th style="color: white; background: #273793;">
+                  Sun</th>
+              <th style="color: white; background: #273793;">
+                  Mon</th>
+              <th style="color: white; background: #273793;">
+                  Tue</th>
+              <th style="color: white; background: #273793;">
+                  Wed</th>
+              <th style="color: white; background: #273793;">
+                  Thu</th>
+              <th style="color: white; background: #273793;">
+                  Fri</th>
+              <th style="color: white; background: #273793;">
+                  Sat</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+          </tr>
+          <tr></tr>
+          <tr>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+          </tr>
+          <tr>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+          </tr>
+          <tr>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+          </tr>
+          <tr>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+          </tr>
+      </tbody>
+  </table>
+            </div>
+        </section>
+
+
+        <section class="mt-5">
+            <div class="container">
+              <p class="title-socmed"><b>Find us on social media!</b></p>
+              <div id="social-media">
+                <div class="container">
+                  <center>
+                    <table class="text-center">
+                      <tr>
+                        <td style="padding : 30px">
+                          <a href=""><button class="btn-socmed"><i class="fab fa-youtube stroke-transparent"></i></button></a>
+                          <p style="margin-top: 0.3cm;"><b>ERP Laboratory</b></p>
+                        </td>
+                        <td style="padding : 30px">
+                          <a href=""><button class="btn-socmed"><i class="fab fa-line stroke-transparent"></i></button></a>
+                          <p style="margin-top: 0.3cm;"><b>@dny3610n</b></p>
+                        </td>
+                        <td style="padding : 30px">
+                          <a href=""><button class="btn-socmed"><i class="fab fa-instagram stroke-transparent"></i></button></a>
+                          <p style="margin-top: 0.3cm;"><b>@erpstudygroup</b></p>
+                        </td>
+                        <td style="padding : 30px">
+                          <a href=""><button class="btn-socmed"><i class="fab fa-linkedin stroke-transparent"></i></button></a>
+                          <p style="margin-top: 0.3cm;"><b>ERP Study Group</b></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer style=" background-color: #273793; color:#FFFFFF; padding-top: 20px; padding-bottom: 2px;">
+            <div class="container text-center">
+              <p><b><i>@ERP Study Group 2019</i></b></p>
+            </div>
+          </footer>
+    </body>
+</html>
