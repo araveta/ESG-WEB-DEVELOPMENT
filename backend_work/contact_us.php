@@ -102,13 +102,7 @@ if(isset($_GET['alert'])){
                 </div>
 
                 <input type="submit" class="form-control btn mb-3" name="submit" value="Kirim Pesan">
-                
 
-
-                <!-- <a href="Feedback.html"><p class="text-right mt-3" style="color:#273793;"><b><u>Lihat feedback</u></b></p></a> -->
-                <a class="login-trigger" href="feedback_list.php"><p class="text-right mt-3" style="color:#273793;"><b><u>Lihat Feedback</u></b></p></a>
-                
-             
         </div>
     </section>
     

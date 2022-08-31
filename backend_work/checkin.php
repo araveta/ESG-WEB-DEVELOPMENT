@@ -1,24 +1,23 @@
 <?php
 session_start();
 if(isset($_POST['submit'])){
-    if(isset($_POST['username'])&&isset($_POST['password'])){
+    if(isset($_POST['email'])&&isset($_POST['password'])){
         include "connectdb.php";
-        $username = $_POST['username'];
+        $email = $_POST['email'];
         $password = md5($_POST['password']);
-        $url = $_POST['url'];
-        $search = mysqli_query($conn,"SELECT * FROM user WHERE username='$username'");
+        $search = mysqli_query($conn,"SELECT * FROM user WHERE email='$email'");
         if(mysqli_num_rows($search)>0){
             $d = mysqli_fetch_assoc($search);
             if($password==$d['password']){
-                $_SESSION['username']=$username;
+                $_SESSION['email']=$username;
                 $_SESSION['password']=$password;
                 $_SESSION['login']=TRUE;
-                header("Location:$url");
+                header("Location:./admin/index.php");
             }else{
-                header("Location:$url?alert=incorrect");
+                header("Location:login.php?alert=incorrect");
             }
         }else{
-            header("Location:$url?alert=nouser");
+            header("Location:login.php?alert=nouser");
         }
     }
 }

@@ -1,38 +1,38 @@
 <?php 
-if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
-         $url = "https://";   
-    else  
-         $url = "http://";   
-    // Append the host(domain name, ip) to the URL.   
-    $url.= $_SERVER['HTTP_HOST'];   
-    
-    // Append the requested resource location to the URL   
-    $url.= $_SERVER['REQUEST_URI'];    
-?>
-<script>
-    $(document).ready(function(){
-        $("#login").modal('show');
-    });
-</script>
-<div id="login" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <h4>Login</h4>
-                <form action="checkin.php" method="post">
-                    <div class="mb-3">
-                        <label for="username"><b style="color:#273793;">Username</b></label>
-                        <input type="text" name="username" class="username form-control" placeholder=" Username" required/>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password"><b style="color:#273793">Password</b></label>
-                        <input type="password" name="password" class="password form-control" placeholder=" Password" required/>
-                    </div>
-                    <input type="hidden" name="url" value="<?= $url; ?>">
-                    <input class="btn login form-control" type="submit" name="submit" value="Login" />
-                </form>
+$page = 'Login';
+include "header.php";?>
+
+        <!---Section Title--->
+        <section id="title">
+            <div class="container">
+                <h2 class="title"> 
+                    <b>
+                    <font color="black">MASUK</font>
+                    </b> 
+                </h2>
             </div>
-        </div>
-    </div>  
-</div>
+        </section>
+        <section id="login">
+          <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto">
+                    <form action="checkin.php" method="POST">
+                    <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><b>Email</b></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><b>Kata Sandi</b></label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" name="password" placeholder="name@example.com">
+                    </div>
+                    <div class="d-grid gap-2">
+                    <button class="btn btn-primary" style="background-color:#273793" type="submit" name="submit"><b>Masuk</b></button>
+                    </div>
+                    </form>
+                    <a class="mt-3 d-flex justify-content-center text-center" style="color:#273793" href=""><b>Lupa Password?</b></a>
+                </div>
+            </div>
+          </div>
+        </section>
+
 <?php include "footer.php";?>
